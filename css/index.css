@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.main {
+  padding: 1rem;
+  width: 20%;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main p{
+    font-weight: 400;
+    color: #818589;
+    
+ }
+.main h2{
+    font-weight: 700;
+    color: #36454F;
+}
+
+.main img {
+  width: 100%;
+  object-fit: cover;
+}
